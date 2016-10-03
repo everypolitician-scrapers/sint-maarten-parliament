@@ -29,7 +29,7 @@ def scrape_list(url)
       name: mem.css('#org_title').text.tidy,
       image: mem.css('div#org_left img/@src').text,
       party: mem.css('#orgi_right').first.text.tidy,
-      term: 2,
+      term: 3,
       source: url,
     }
     data[:image] = URI.join(url, URI.escape(data[:image])).to_s unless data[:image].to_s.empty?
