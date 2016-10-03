@@ -24,7 +24,7 @@ def scrape_list(url)
   noko = noko_for(url)
 
   noko.css('section.article-content div#o1').each do |mem|
-    data = { 
+    data = {
       id: mem.css('div#org_left img/@src').text.split("/").last.gsub(/\..*?$/, ''),
       name: mem.css('#org_title').text.tidy,
       image: mem.css('div#org_left img/@src').text,
