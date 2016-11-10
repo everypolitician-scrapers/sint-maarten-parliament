@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Wed, 09 Nov 2016 13:32:57 GMT
+    - Thu, 10 Nov 2016 12:15:09 GMT
     Server:
     - Apache/2.4.16
     X-Powered-By:
@@ -37,7 +37,7 @@ response:
     Pragma:
     - no-cache
     Set-Cookie:
-    - 6b46cc80a1166fc32f6c9e033728f33d=99a678635008a11dcded504e38f6a0f8; path=/; HttpOnly
+    - 6b46cc80a1166fc32f6c9e033728f33d=7d9cacd44f86cb8b466abf73065361a6; path=/; HttpOnly
     X-Mod-Pagespeed:
     - 1.9.32.10-7443
     Vary:
@@ -45,8 +45,8 @@ response:
     Content-Type:
     - text/html; charset=utf-8
     Content-Length:
-    - '6885'
+    - '6365'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 09 Nov 2016 13:32:59 GMT
+recorded_at: Thu, 10 Nov 2016 12:15:11 GMT
