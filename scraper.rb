@@ -10,26 +10,46 @@ require 'scraperwiki'
 # OpenURI::Cache.cache_path = '.cache'
 require 'scraped_page_archive/open-uri'
 
-def noko_for(url)
-  Nokogiri::HTML(open(url).read)
-end
+class MembersPage < Scraped::HTML
+  decorator Scraped::Response::Decorator::AbsoluteUrls
 
-def scrape_list(url)
-  noko = noko_for(url)
-
-  noko.css('section.article-content div#o1').each do |mem|
-    data = {
-      id:     mem.css('div#org_left img/@src').text.split('/').last.gsub(/\..*?$/, ''),
-      name:   mem.css('#org_title').text.tidy,
-      image:  mem.css('div#org_left img/@src').text,
-      party:  mem.css('#orgi_right').first.text.tidy,
-      term:   3,
-      source: url,
-    }
-    data[:image] = URI.join(url, URI.escape(data[:image])).to_s unless data[:image].to_s.empty?
-    ScraperWiki.save_sqlite(%i(id term), data)
+  field :members do
+    noko.css('section.article-content div#o1').map do |mem|
+      fragment mem => MemberDiv
+    end
   end
 end
 
+class MemberDiv < Scraped::HTML
+  field :id do
+    noko.css('div#org_left img/@src').text.split('/').last.gsub(/\..*?$/, '')
+  end
+
+  field :name do
+    noko.css('#org_title').text.tidy
+  end
+
+  field :image do
+    noko.css('div#org_left img/@src').text
+  end
+
+  field :party do
+    noko.css('#orgi_right').first.text.tidy
+  end
+
+  field :source do
+    url
+  end
+end
+
+def scrape(h)
+  url, klass = h.to_a.first
+  klass.new(response: Scraped::Request.new(url: url).response)
+end
+
+start = 'http://www.sxmparliament.org/organization/members-of-parliament.html'
+
 ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
-scrape_list('http://www.sxmparliament.org/organization/members-of-parliament.html')
+data = scrape(start => MembersPage).members.map { |m| m.to_h.merge(term: 3) }
+# puts data.map { |r| r.reject { |_k, v| v.to_s.empty? }.sort_by { |k, _v| k }.to_h }
+ScraperWiki.save_sqlite(%i(id term), data)
