@@ -2,6 +2,7 @@
 # encoding: utf-8
 # frozen_string_literal: true
 
+require 'execjs'
 require 'pry'
 require 'scraped'
 require 'scraperwiki'
@@ -22,7 +23,7 @@ end
 
 class MemberDiv < Scraped::HTML
   field :id do
-    noko.css('div#org_left img/@src').text.split('/').last.gsub(/\..*?$/, '')
+    email.sub(/@.*/, '')
   end
 
   field :name do
@@ -35,6 +36,12 @@ class MemberDiv < Scraped::HTML
 
   field :party do
     noko.css('#orgi_right').first.text.tidy
+  end
+
+  field :email do
+    js = noko.css('#contact script').text.gsub(/document.getElementById.*?;/, '')
+    var = js[/var (addy.*?)=/, 1]
+    CGI.unescapeHTML(ExecJS.exec("#{js}; return #{var}"))
   end
 
   field :source do
@@ -50,6 +57,6 @@ end
 start = 'http://www.sxmparliament.org/organization/members-of-parliament.html'
 
 ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
-data = scrape(start => MembersPage).members.map { |m| m.to_h.merge(term: 3) }
+data = scrape(start => MembersPage).members.map { |m| m.to_h.merge(term: 4) }
 # puts data.map { |r| r.reject { |_k, v| v.to_s.empty? }.sort_by { |k, _v| k }.to_h }
 ScraperWiki.save_sqlite(%i(id term), data)
