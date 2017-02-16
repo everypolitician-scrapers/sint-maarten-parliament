@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 require 'scraped'
-require 'ExecJS'
+require 'execjs'
 
 class MemberDiv < Scraped::HTML
   field :id do

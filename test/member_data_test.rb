@@ -26,4 +26,19 @@ describe 'member data' do
       )
     end
   end
+
+  describe 'Member without prefix' do
+    let(:id) { 'franklin.meyers' }
+    it 'should return the expected data' do
+      subject.to_h.must_equal(
+        id:               id,
+        name:             'Franklin A. Meyers',
+        honorific_prefix: '',
+        image:            'http://www.sxmparliament.org/images/fmeyers.jpg',
+        party:            'United Peoples Party',
+        email:            'franklin.meyers@sxmparliament.org',
+        source:           'http://www.sxmparliament.org/organization/members-of-parliament.html'
+      )
+    end
+  end
 end
