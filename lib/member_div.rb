@@ -8,7 +8,11 @@ class MemberDiv < Scraped::HTML
   end
 
   field :name do
-    noko.css('#org_title').text.tidy
+    name_parts.reject { |part| titles.include? part }.map(&:tidy).join(' ')
+  end
+
+  field :honorific_prefix do
+    name_parts.select { |part| titles.include? part }.map(&:tidy).join(';')
   end
 
   field :image do
@@ -27,5 +31,15 @@ class MemberDiv < Scraped::HTML
 
   field :source do
     url
+  end
+
+  private
+
+  def titles
+    %(drs.)
+  end
+
+  def name_parts
+    noko.css('#org_title').text.split(' ')
   end
 end
