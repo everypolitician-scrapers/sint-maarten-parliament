@@ -1,4 +1,6 @@
 # frozen_string_literal: true
+require 'scraped'
+
 class MemberDiv < Scraped::HTML
   field :id do
     email.sub(/@.*/, '')
@@ -22,7 +24,7 @@ class MemberDiv < Scraped::HTML
     CGI.unescapeHTML(ExecJS.exec("#{js}; return #{var}"))
   end
 
-  fied :source do
+  field :source do
     url
   end
 end
