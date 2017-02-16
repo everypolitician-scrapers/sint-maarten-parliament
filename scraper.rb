@@ -4,8 +4,11 @@
 
 require 'execjs'
 require 'pry'
+require 'require_all'
 require 'scraped'
 require 'scraperwiki'
+
+require_rel 'lib'
 
 # require 'open-uri/cached'
 # OpenURI::Cache.cache_path = '.cache'
