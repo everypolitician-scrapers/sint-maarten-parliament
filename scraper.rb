@@ -4,50 +4,15 @@
 
 require 'execjs'
 require 'pry'
+require 'require_all'
 require 'scraped'
 require 'scraperwiki'
+
+require_rel 'lib'
 
 # require 'open-uri/cached'
 # OpenURI::Cache.cache_path = '.cache'
 require 'scraped_page_archive/open-uri'
-
-class MembersPage < Scraped::HTML
-  decorator Scraped::Response::Decorator::AbsoluteUrls
-
-  field :members do
-    noko.css('section.article-content div#o1').map do |mem|
-      fragment mem => MemberDiv
-    end
-  end
-end
-
-class MemberDiv < Scraped::HTML
-  field :id do
-    email.sub(/@.*/, '')
-  end
-
-  field :name do
-    noko.css('#org_title').text.tidy
-  end
-
-  field :image do
-    noko.css('div#org_left img/@src').text
-  end
-
-  field :party do
-    noko.css('#orgi_right').first.text.tidy
-  end
-
-  field :email do
-    js = noko.css('#contact script').text.gsub(/document.getElementById.*?;/, '')
-    var = js[/var (addy.*?)=/, 1]
-    CGI.unescapeHTML(ExecJS.exec("#{js}; return #{var}"))
-  end
-
-  field :source do
-    url
-  end
-end
 
 def scrape(h)
   url, klass = h.to_a.first
