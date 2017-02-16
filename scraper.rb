@@ -57,6 +57,6 @@ end
 start = 'http://www.sxmparliament.org/organization/members-of-parliament.html'
 
 ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
-data = scrape(start => MembersPage).members.map { |m| m.to_h.merge(term: 4) }
+data = scrape(start => MembersPage).members.map { |m| m.to_h.merge(term: 3) }
 # puts data.map { |r| r.reject { |_k, v| v.to_s.empty? }.sort_by { |k, _v| k }.to_h }
 ScraperWiki.save_sqlite(%i(id term), data)
