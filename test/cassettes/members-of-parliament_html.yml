@@ -1,0 +1,519 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.sxmparliament.org/organization/members-of-parliament.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 16 Feb 2017 14:57:52 GMT
+      Server:
+      - Apache/2.4.23
+      X-Powered-By:
+      - PHP/5.6.29
+      X-Logged-In:
+      - 'False'
+      X-Content-Powered-By:
+      - K2 v2.7.1 (by JoomlaWorks)
+      P3p:
+      - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+      Expires:
+      - Wed, 17 Aug 2005 00:00:00 GMT
+      Cache-Control:
+      - max-age=0, no-cache
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Set-Cookie:
+      - 6b46cc80a1166fc32f6c9e033728f33d=a9f03cada6c2a83022d02354f2f9e6fa; path=/;
+        HttpOnly
+      X-Mod-Pagespeed:
+      - 1.11.33.4-0
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '6997'
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: ASCII-8BIT
+      string: "\n<!DOCTYPE html>\n<html prefix=\"og: http://ogp.me/ns#\" lang=\"en-gb\"
+        dir=\"ltr\" class=\"com_content view-article itemid-637 mm-hover j36\">\n\n
+        \ <head>\n    \t<base href=\"http://www.sxmparliament.org/organization/members-of-parliament.html\"/>\n\t<meta
+        http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/>\n\t<meta
+        name=\"description\" content=\"St. Maarten Parliament brings you the latest
+        news on the happenings of Sint Maarten Parliament\"/>\n\t<meta name=\"generator\"
+        content=\"Joomla! - Open Source Content Management\"/>\n\t<title>Members of
+        Parliament</title>\n\t<link href=\"/templates/ofisim/favicon.ico\" rel=\"shortcut
+        icon\" type=\"image/vnd.microsoft.icon\"/>\n\t<link href=\"http://www.sxmparliament.org/component/search/?Itemid=637&amp;format=opensearch\"
+        rel=\"search\" title=\"Search Sint Maarten Parliament\" type=\"application/opensearchdescription+xml\"/>\n\t<link
+        href=\"/templates,_ofisim,_css,_bootstrap.css+media,_k2,_assets,_css,_k2.fonts.css,qv2.7.1+components,_com_k2,_css,_k2.css,qv2.7.1+media,_system,_css,_modal.css+media,_com_attachments,_css,_attachments_hide.css+media,_com_attachments,_css,_attachments_list.css.pagespeed.cc.HyaZ1HHOaF.css\"
+        rel=\"stylesheet\" type=\"text/css\"/>\n\t\n\t\n\t\n\t\n\t\n\t<link href=\"/templates,_system,_css,_system.css+templates,_ofisim,_css,_template.css+templates,_ofisim,_css,_bootstrap-responsive.css+templates,_ofisim,_css,_template-responsive.css+templates,_ofisim,_css,_megamenu.css+templates,_ofisim,_css,_megamenu-responsive.css+plugins,_system,_t3,_base,_css,_off-canvas.css+templates,_ofisim,_fonts,_font-awesome,_css,_font-awesome.min.css.pagespeed.cc.sqR15UwVFf.css\"
+        rel=\"stylesheet\" type=\"text/css\"/>\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t<script
+        src=\"/media/jui/js/jquery.min.js\" type=\"text/javascript\"></script>\n\t<script
+        src=\"/media/jui/js/jquery-noconflict.js+jquery-migrate.min.js.pagespeed.jc.rP82ixCC2z.js\"></script><script>eval(mod_pagespeed_VEShUZnb9g);</script>\n\t<script>eval(mod_pagespeed_pi_txB_CqZ);</script>\n\t<script
+        src=\"/media/k2/assets/js/k2.frontend.js?v2.7.1&amp;sitepath=/\" type=\"text/javascript\"></script>\n\t<script
+        src=\"/media/system/js/mootools-core.js+core.js.pagespeed.jc.PuZY20S72o.js\"></script><script>eval(mod_pagespeed_g0nR65Drqe);</script>\n\t<script>eval(mod_pagespeed_j_j96zFpqz);</script>\n\t<script
+        src=\"/media/system/js/mootools-more.js\" type=\"text/javascript\"></script>\n\t<script
+        src=\"/media,_system,_js,_modal.js+media,_com_attachments,_js,_attachments_refresh.js+media,_system,_js,_caption.js+plugins,_system,_t3,_base,_bootstrap,_js,_bootstrap.js+plugins,_system,_t3,_base,_js,_jquery.tap.min.js+plugins,_system,_t3,_base,_js,_off-canvas.js+plugins,_system,_t3,_base,_js,_script.js.pagespeed.jc.HGQplYCx_i.js\"></script><script>eval(mod_pagespeed_64gxmrG5cP);</script>\n\t<script>eval(mod_pagespeed_HWoCp9MBLF);</script>\n\t<script>eval(mod_pagespeed_DYGoTP34MQ);</script>\n\t<script>eval(mod_pagespeed__5Wio_UFlh);</script>\n\t<script>eval(mod_pagespeed_p7_l5JYOk8);</script>\n\t<script>eval(mod_pagespeed_P2VA0urbv6);</script>\n\t<script>eval(mod_pagespeed_4xFDqmR8rW);</script>\n\t<script
+        src=\"/plugins/system/t3/base/js/menu.js+responsive.js.pagespeed.jc.1MS8-VD3Ul.js\"></script><script>eval(mod_pagespeed_dX81XNzCLJ);</script>\n\t<script>eval(mod_pagespeed_WE$OQ3_9LC);</script>\n\t<script
+        type=\"text/javascript\">jQuery(function($){SqueezeBox.initialize({});SqueezeBox.assign($('a.modal').get(),{parse:'rel'});});window.jModalClose=function(){SqueezeBox.close();};document.onreadystatechange=function(){if(document.readyState=='interactive'&&typeof
+        tinyMCE!='undefined'&&tinyMCE){if(typeof window.jModalClose_no_tinyMCE==='undefined'){window.jModalClose_no_tinyMCE=typeof(jModalClose)=='function'?jModalClose:false;jModalClose=function(){if(window.jModalClose_no_tinyMCE)window.jModalClose_no_tinyMCE.apply(this,arguments);tinyMCE.activeEditor.windowManager.close();};}if(typeof
+        window.SqueezeBoxClose_no_tinyMCE==='undefined'){if(typeof(SqueezeBox)=='undefined')SqueezeBox={};window.SqueezeBoxClose_no_tinyMCE=typeof(SqueezeBox.close)=='function'?SqueezeBox.close:false;SqueezeBox.close=function(){if(window.SqueezeBoxClose_no_tinyMCE)window.SqueezeBoxClose_no_tinyMCE.apply(this,arguments);tinyMCE.activeEditor.windowManager.close();};}}};jQuery(window).on('load',function(){new
+        JCaption('img.caption');});jQuery(function($){$(\".hasTooltip\").tooltip({\"html\":true,\"container\":\"body\"});});</script>\n\n
+        \   \n<!-- META FOR IOS & HANDHELD -->\n<meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=100\">\n<meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n<meta name=\"HandheldFriendly\"
+        content=\"true\"/>\n<meta name=\"apple-mobile-web-app-capable\" content=\"YES\"/>\n<!--
+        //META FOR IOS & HANDHELD -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- Le HTML5 shim,
+        for IE6-8 support of HTML5 elements -->\n<!--[if lt IE 9]>\n<script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n<![endif]-->\n\n<!--
+        For IE6-8 support of media query -->\n<!--[if lt IE 9]>\n<script type=\"text/javascript\"
+        src=\"/plugins/system/t3/base/js/respond.min.js\"></script>\n<![endif]-->\n\n\n\n\n<!--
+        You can add Google Analytics here-->\n  </head>\n\n  <body>\n\n\n    <section
+        id=\"otwrap\">\n\n    <div class=\"container shadow\">\n      \r\n\r\n\r\n<!--
+        HEADER -->\r\n<header id=\"t3-header\" class=\"container t3-header\">\r\n
+        \ <div class=\"row\">\r\n\r\n    <!-- LOGO -->\r\n    <div class=\"span4 logo\">\r\n
+        \     <div class=\"logo-inside logo-image\">\r\n        <h1>\r\n          <a
+        href=\"/\" title=\"Sint Maarten Parliament\"> <img src=\"/templates/ofisim/images/xparli-logo3.png.pagespeed.ic.u33s3gEnS6.png\">\r\n
+        \           <span></span>\r\n          </a>\r\n          <small class=\"site-slogan
+        hidden-phone\"></small>\r\n        </h1>\r\n      </div>\r\n    </div>\r\n
+        \   <!-- //LOGO -->\r\n\r\n\r\n    <!-- MAIN NAVIGATION -->\r\n    <div class=\"span8\">\r\n
+        \     <nav id=\"t3-mainnav\" class=\"wrap t3-mainnav\">\r\n        <div class=\"navbar\">\r\n
+        \         <div class=\"navbar-inner\">\r\n          \r\n            <button
+        type=\"button\" class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\".nav-collapse\">\r\n
+        \             <i class=\"icon-reorder\"></i>\r\n            </button>\r\n\r\n
+        \           <div class=\"nav-collapse collapse always-show\">\r\n                          <div
+        class=\"t3-megamenu animate zoom\" data-duration=\"400\" data-responsive=\"true\">\n<ul
+        itemscope itemtype=\"http://www.schema.org/SiteNavigationElement\" class=\"nav
+        navbar-nav level0\">\n<li itemprop='name' class=\"dropdown mega\" data-id=\"435\"
+        data-level=\"1\">\n<a itemprop='url' class=\"redcolor dropdown-toggle\" href=\"/\"
+        title=\"Parliament of Sint Maarten\" data-target=\"#\" data-toggle=\"dropdown\">Home
+        <em class=\"caret\"></em></a>\n\n<div class=\"nav-child dropdown-menu mega-dropdown-menu\"><div
+        class=\"mega-dropdown-inner\">\n</div></div>\n</li>\n<li itemprop='name' class=\"dropdown
+        mega\" data-id=\"597\" data-level=\"1\">\n<a itemprop='url' class=\" dropdown-toggle\"
+        href=\"#\" data-target=\"#\" data-toggle=\"dropdown\">About Parliament<em
+        class=\"caret\"></em></a>\n\n<div class=\"nav-child dropdown-menu mega-dropdown-menu\"><div
+        class=\"mega-dropdown-inner\">\n<div class=\"row-fluid\">\n<div class=\"span12
+        mega-col-nav\" data-width=\"12\"><div class=\"mega-inner\">\n<ul itemscope
+        itemtype=\"http://www.schema.org/SiteNavigationElement\" class=\"mega-nav
+        level1\">\n<li itemprop='name' data-id=\"619\" data-level=\"2\">\n<a itemprop='url'
+        class=\"\" href=\"/about-parliament/admission-members-of-parliament.html\"
+        data-target=\"#\">Admission Members of Parliament </a>\n\n</li>\n<li itemprop='name'
+        data-id=\"620\" data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/our-meetings.html\"
+        data-target=\"#\">Meetings </a>\n\n</li>\n<li itemprop='name' data-id=\"621\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/duration-of-parliament.html\"
+        data-target=\"#\">Duration of Parliament </a>\n\n</li>\n<li itemprop='name'
+        data-id=\"678\" data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/dress-code.html\"
+        data-target=\"#\">Dress code </a>\n\n</li>\n<li itemprop='name' data-id=\"622\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/tasks.html\"
+        data-target=\"#\">Tasks </a>\n\n</li>\n<li itemprop='name' data-id=\"623\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/rules-of-order.html\"
+        data-target=\"#\">Rules of Order </a>\n\n</li>\n<li itemprop='name' data-id=\"624\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/resignation-members-of-parliament.html\"
+        data-target=\"#\">Resignation Members of Parliament </a>\n\n</li>\n<li itemprop='name'
+        data-id=\"625\" data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/immunity.html\"
+        data-target=\"#\">Immunity </a>\n\n</li>\n<li itemprop='name' data-id=\"626\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/parliament-logo.html\"
+        data-target=\"#\">Parliament logo </a>\n\n</li>\n<li itemprop='name' data-id=\"646\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/international-relations.html\"
+        data-target=\"#\">International relations </a>\n\n</li>\n<li itemprop='name'
+        data-id=\"636\" data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/about-parliament/parliamentary-business.html\"
+        data-target=\"#\">News Items  </a>\n\n</li>\n</ul>\n</div></div>\n</div>\n</div></div>\n</li>\n<li
+        itemprop='name' class=\"active dropdown mega\" data-id=\"608\" data-level=\"1\">\n<a
+        itemprop='url' class=\" dropdown-toggle\" href=\"/organization.html\" data-target=\"#\"
+        data-toggle=\"dropdown\">Organization <em class=\"caret\"></em></a>\n\n<div
+        class=\"nav-child dropdown-menu mega-dropdown-menu\"><div class=\"mega-dropdown-inner\">\n<div
+        class=\"row-fluid\">\n<div class=\"span12 mega-col-nav\" data-width=\"12\"><div
+        class=\"mega-inner\">\n<ul itemscope itemtype=\"http://www.schema.org/SiteNavigationElement\"
+        class=\"mega-nav level1\">\n<li itemprop='name' class=\"current active\" data-id=\"637\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/organization/members-of-parliament.html\"
+        data-target=\"#\">Members of Parliament </a>\n\n</li>\n<li itemprop='name'
+        data-id=\"638\" data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/organization/president.html\"
+        data-target=\"#\">President </a>\n\n</li>\n<li itemprop='name' data-id=\"639\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/organization/vice-president.html\"
+        data-target=\"#\">Vice President </a>\n\n</li>\n<li itemprop='name' data-id=\"640\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/organization/secretary-general.html\"
+        data-target=\"#\">Secretary General </a>\n\n</li>\n<li itemprop='name' data-id=\"641\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/organization/secretariat.html\"
+        data-target=\"#\">Secretariat </a>\n\n</li>\n<li itemprop='name' data-id=\"642\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/organization/parliament-committees.html\"
+        data-target=\"#\">Parliament Committees </a>\n\n</li>\n<li itemprop='name'
+        data-id=\"643\" data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/organization/parlatino-committees.html\"
+        data-target=\"#\">Parlatino Committees </a>\n\n</li>\n<li itemprop='name'
+        data-id=\"655\" data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/organization/past-presidents.html\"
+        data-target=\"#\">Past Presidents </a>\n\n</li>\n</ul>\n</div></div>\n</div>\n</div></div>\n</li>\n<li
+        itemprop='name' class=\"dropdown mega\" data-id=\"572\" data-level=\"1\">\n<a
+        itemprop='url' class=\" dropdown-toggle\" href=\"/documents.html\" data-target=\"#\"
+        data-toggle=\"dropdown\">Documents <em class=\"caret\"></em></a>\n\n<div class=\"nav-child
+        dropdown-menu mega-dropdown-menu\"><div class=\"mega-dropdown-inner\">\n<div
+        class=\"row-fluid\">\n<div class=\"span12 mega-col-nav\" data-width=\"12\"><div
+        class=\"mega-inner\">\n<ul itemscope itemtype=\"http://www.schema.org/SiteNavigationElement\"
+        class=\"mega-nav level1\">\n<li itemprop='name' data-id=\"647\" data-level=\"2\">\n<a
+        itemprop='url' class=\"\" href=\"/documents/kingdom-charter.html\" data-target=\"#\">Kingdom
+        Charter </a>\n\n</li>\n<li itemprop='name' data-id=\"648\" data-level=\"2\">\n<a
+        itemprop='url' class=\"\" href=\"/documents/constitution.html\" data-target=\"#\">Constitution
+        </a>\n\n</li>\n<li itemprop='name' data-id=\"649\" data-level=\"2\">\n<a itemprop='url'
+        class=\"\" href=\"/documents/other-regulations-pertaining-to-parliament.html\"
+        data-target=\"#\">Other regulations pertaining to Parliament </a>\n\n</li>\n<li
+        itemprop='name' data-id=\"650\" data-level=\"2\">\n<a itemprop='url' class=\"\"
+        href=\"/documents/rules-of-order.html\" data-target=\"#\">Rules of Order </a>\n\n</li>\n<li
+        itemprop='name' class=\"dropdown-submenu mega\" data-id=\"651\" data-level=\"2\">\n<a
+        itemprop='url' class=\"\" href=\"/documents/draft-national-ordinances.html\"
+        data-target=\"#\">Draft national ordinances </a>\n\n<div class=\"nav-child
+        dropdown-menu mega-dropdown-menu\"><div class=\"mega-dropdown-inner\">\n<div
+        class=\"row-fluid\">\n<div class=\"span12 mega-col-nav\" data-width=\"12\"><div
+        class=\"mega-inner\">\n<ul itemscope itemtype=\"http://www.schema.org/SiteNavigationElement\"
+        class=\"mega-nav level2\">\n<li itemprop='name' data-id=\"682\" data-level=\"3\">\n<a
+        itemprop='url' class=\"\" href=\"/documents/draft-national-ordinances/draft-budget-2016.html\"
+        data-target=\"#\">Draft Budget 2016 </a>\n\n</li>\n<li itemprop='name' data-id=\"755\"
+        data-level=\"3\">\n<a itemprop='url' class=\"\" href=\"/documents/draft-national-ordinances/draft-budget-2017.html\"
+        data-target=\"#\">Draft Budget 2017 </a>\n\n</li>\n<li itemprop='name' data-id=\"716\"
+        data-level=\"3\">\n<a itemprop='url' class=\"\" href=\"/documents/draft-national-ordinances/zj-2012-2013.html\"
+        data-target=\"#\">ZJ 2012-2013  </a>\n\n</li>\n<li itemprop='name' data-id=\"717\"
+        data-level=\"3\">\n<a itemprop='url' class=\"\" href=\"/documents/draft-national-ordinances/zj-2013-2014.html\"
+        data-target=\"#\"> ZJ 2013-2014 </a>\n\n</li>\n<li itemprop='name' data-id=\"718\"
+        data-level=\"3\">\n<a itemprop='url' class=\"\" href=\"/documents/draft-national-ordinances/zj-2014-2015.html\"
+        data-target=\"#\"> ZJ 2014-2015 </a>\n\n</li>\n<li itemprop='name' data-id=\"719\"
+        data-level=\"3\">\n<a itemprop='url' class=\"\" href=\"/documents/draft-national-ordinances/zj-2015-2016.html\"
+        data-target=\"#\">ZJ 2015-2016 </a>\n\n</li>\n</ul>\n</div></div>\n</div>\n</div></div>\n</li>\n<li
+        itemprop='name' data-id=\"653\" data-level=\"2\">\n<a itemprop='url' class=\"\"
+        href=\"/documents/questions-in-writing.html\" data-target=\"#\">Questions
+        in writing </a>\n\n</li>\n<li itemprop='name' data-id=\"654\" data-level=\"2\">\n<a
+        itemprop='url' class=\"\" href=\"/documents/parliament-annual-reports.html\"
+        data-target=\"#\">Parliament Annual reports </a>\n\n</li>\n<li itemprop='name'
+        data-id=\"652\" data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/documents/motions.html\"
+        data-target=\"#\">Motions </a>\n\n</li>\n<li itemprop='name' data-id=\"656\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/documents/afsprakenlijsten.html\"
+        data-target=\"#\">Agreements lists </a>\n\n</li>\n<li itemprop='name' data-id=\"659\"
+        data-level=\"2\">\n<a itemprop='url' class=\"\" href=\"/documents/pop-award.html\"
+        data-target=\"#\">PoP Award </a>\n\n</li>\n</ul>\n</div></div>\n</div>\n</div></div>\n</li>\n<li
+        itemprop='name' class=\"dropdown mega\" data-id=\"604\" data-level=\"1\">\n<a
+        itemprop='url' class=\" dropdown-toggle\" href=\"/meetings/month.calendar/2017/02/16/-.html\"
+        data-target=\"#\" data-toggle=\"dropdown\">Meetings <em class=\"caret\"></em></a>\n\n<div
+        class=\"nav-child dropdown-menu mega-dropdown-menu\"><div class=\"mega-dropdown-inner\">\n<div
+        class=\"row-fluid\">\n<div class=\"span12 mega-col-nav\" data-width=\"12\"><div
+        class=\"mega-inner\">\n<ul itemscope itemtype=\"http://www.schema.org/SiteNavigationElement\"
+        class=\"mega-nav level1\">\n<li itemprop='name' data-id=\"644\" data-level=\"2\">\n<a
+        itemprop='url' class=\"\" href=\"/meetings/audio-video-archive.html\" data-target=\"#\">Audio
+        Archive </a>\n\n</li>\n<li itemprop='name' data-id=\"680\" data-level=\"2\">\n<a
+        itemprop='url' class=\"\" href=\"http://goo.gl/4iSaqY\" target=\"_blank\"
+        data-target=\"#\">Video Archive</a>\n\n</li>\n</ul>\n</div></div>\n</div>\n</div></div>\n</li>\n<li
+        itemprop='name' class=\"dropdown mega\" data-id=\"635\" data-level=\"1\">\n<a
+        itemprop='url' class=\" dropdown-toggle\" href=\"/contact.html\" data-target=\"#\"
+        data-toggle=\"dropdown\">Contact <em class=\"caret\"></em></a>\n\n<div class=\"nav-child
+        dropdown-menu mega-dropdown-menu\"><div class=\"mega-dropdown-inner\">\n<div
+        class=\"row-fluid\">\n<div class=\"span12 mega-col-nav\" data-width=\"12\"><div
+        class=\"mega-inner\">\n<ul itemscope itemtype=\"http://www.schema.org/SiteNavigationElement\"
+        class=\"mega-nav level1\">\n<li itemprop='name' data-id=\"658\" data-level=\"2\">\n<a
+        itemprop='url' class=\"\" href=\"/contact/vacancies.html\" data-target=\"#\">Vacancies
+        </a>\n\n</li>\n</ul>\n</div></div>\n</div>\n</div></div>\n</li>\n</ul>\n</div>\n
+        \                       </div>\r\n          </div>\r\n        </div>\r\n      </nav>\r\n
+        \   </div>\r\n    <!-- //MAIN NAVIGATION -->\r\n\r\n  </div>\r\n</header>\r\n<!--
+        //HEADER -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n    </div>\n\n    <div class=\"otslide_width\">\n
+        \     <div class=\"ot_slideshow\">\n\t \n\n\t\t\n\t\t\n\n\n\t\t\n\t \n</div>\n\n\n
+        \   </div>\n\n    <div class=\"container shadow\">\n\n      \n\n\n      \n<section
+        id=\"t3-mainbody\" class=\"container t3-mainbody\">\n  <div class=\"row\">\n
+        \   \n    <!-- MAIN CONTENT -->\n    <div id=\"t3-content\" class=\"t3-content
+        span9 pull-right\" data-default=\"span9 pull-right\" data-xtablet=\"span8
+        pull-right\" data-tablet=\"span12\">\n      <div id=\"system-message-container\">\n\t</div>\n\n
+        \     \n\n\n<div class=\"item-page clearfix\">\n\n\n<!-- Article -->\n<article
+        itemscope itemtype=\"http://schema.org/Article\">\n\t<meta itemprop=\"inLanguage\"
+        content=\"en-GB\"/>\n\n\t\n<header class=\"article-header clearfix\">\n\t<h1
+        class=\"article-title\" itemprop=\"name\">\n\t\t\t\t\t<a href=\"/organization.html\"
+        itemprop=\"url\" title=\"Members of Parliament\">\n\t\t\t\tMembers of Parliament</a>\n\t\t\t</h1>\n\n\t\t\t</header>\n<!--
+        Aside -->\n<!-- //Aside -->\n\n\n\n\n\n\t\n\n\t\n\t\n\t<section class=\"article-content
+        clearfix\" itemprop=\"articleBody\">\n\t\t<p>Presently Parliament consists
+        of the following Members:</p>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div
+        id=\"org_left\">\r\n<p>&nbsp;</p>\r\n</div>\r\n<!-- org_left-->\r\n<div id=\"org_right\">\r\n<p
+        id=\"org_title\">Perry F.M. Geerlings</p>\r\n<div id=\"org_inner\">\r\n<div
+        id=\"org1\">\r\n<p style=\"text-transform: uppercase; font-weight: bold;\">Member
+        of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p
+        id=\"orgi_right\">Democratic Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p
+        id=\"orgi_left\">connect</p>\r\n<div id=\"orgi_right\">\r\n<ul>\r\n<li><a
+        href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloak85a9f08eca5726dadb32c7505a40785a\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloak85a9f08eca5726dadb32c7505a40785a').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy85a9f08eca5726dadb32c7505a40785a='p&#101;rry.g&#101;&#101;rl&#105;ngs'+'&#64;';addy85a9f08eca5726dadb32c7505a40785a=addy85a9f08eca5726dadb32c7505a40785a+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_text85a9f08eca5726dadb32c7505a40785a='c&#111;nt&#97;ct';document.getElementById('cloak85a9f08eca5726dadb32c7505a40785a').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addy85a9f08eca5726dadb32c7505a40785a+'\\' target=\"_blank\">'+addy_text85a9f08eca5726dadb32c7505a40785a+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/xt-heyliger.jpg.pagespeed.ic.hsTCOd-sA4.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!--
+        org_left-->\r\n<div id=\"org_right\">\r\n<p id=\"org_title\">Theodore E. Heyliger</p>\r\n<div
+        id=\"org_inner\">\r\n<div id=\"org1\">\r\n<p style=\"text-transform: uppercase;
+        font-weight: bold;\">Member of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p id=\"orgi_right\">United
+        Peoples Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div
+        id=\"orgi_right\">\r\n<ul>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloak57191421bf7fe96f699b96d048b1880c\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloak57191421bf7fe96f699b96d048b1880c').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy57191421bf7fe96f699b96d048b1880c='th&#101;&#111;d&#111;r&#101;.h&#101;yl&#105;g&#101;r'+'&#64;';addy57191421bf7fe96f699b96d048b1880c=addy57191421bf7fe96f699b96d048b1880c+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_text57191421bf7fe96f699b96d048b1880c='c&#111;nt&#97;ct';document.getElementById('cloak57191421bf7fe96f699b96d048b1880c').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addy57191421bf7fe96f699b96d048b1880c+'\\' target=\"_blank\">'+addy_text57191421bf7fe96f699b96d048b1880c+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/CONNOR.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Claret M.M. Connor</p>\r\n<div id=\"org_inner\">\r\n<div
+        id=\"org1\">\r\n<p style=\"text-transform: uppercase; font-weight: bold;\">Member
+        of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p
+        id=\"orgi_right\">United Peoples Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div id=\"orgi_right\">\r\n<ul>\r\n<li><a
+        href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloakca8a3daf20cdb1c91aa33e2c1a2863fc\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloakca8a3daf20cdb1c91aa33e2c1a2863fc').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addyca8a3daf20cdb1c91aa33e2c1a2863fc='cl&#97;r&#101;t.c&#111;nn&#111;r'+'&#64;';addyca8a3daf20cdb1c91aa33e2c1a2863fc=addyca8a3daf20cdb1c91aa33e2c1a2863fc+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_textca8a3daf20cdb1c91aa33e2c1a2863fc='c&#111;nt&#97;ct';document.getElementById('cloakca8a3daf20cdb1c91aa33e2c1a2863fc').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addyca8a3daf20cdb1c91aa33e2c1a2863fc+'\\' target=\"_blank\">'+addy_textca8a3daf20cdb1c91aa33e2c1a2863fc+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/cookie.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Sidharth M. Bijlani</p>\r\n<div id=\"org_inner\">\r\n<div
+        id=\"org1\">\r\n<p style=\"text-transform: uppercase; font-weight: bold;\">Member
+        of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p
+        id=\"orgi_right\">United Peoples Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div id=\"orgi_right\">\r\n<ul>\r\n<li><a
+        href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloak480265de0320c8ef2951a87d18c78fc2\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloak480265de0320c8ef2951a87d18c78fc2').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy480265de0320c8ef2951a87d18c78fc2='s&#105;dh&#97;rth.b&#105;jl&#97;n&#105;'+'&#64;';addy480265de0320c8ef2951a87d18c78fc2=addy480265de0320c8ef2951a87d18c78fc2+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_text480265de0320c8ef2951a87d18c78fc2='c&#111;nt&#97;ct';document.getElementById('cloak480265de0320c8ef2951a87d18c78fc2').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addy480265de0320c8ef2951a87d18c78fc2+'\\' target=\"_blank\">'+addy_text480265de0320c8ef2951a87d18c78fc2+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/t-leonard.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Tamara E. Leonard</p>\r\n<div id=\"org_inner\">\r\n<div
+        id=\"org1\">\r\n<p style=\"text-transform: uppercase; font-weight: bold;\">Member
+        of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p
+        id=\"orgi_right\">United Peoples Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div id=\"orgi_right\">\r\n<ul>\r\n<li><a
+        href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloak8d9405775704b7e0c50c6734c115c272\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloak8d9405775704b7e0c50c6734c115c272').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy8d9405775704b7e0c50c6734c115c272='t&#97;m&#97;r&#97;.l&#101;&#111;n&#97;rd'+'&#64;';addy8d9405775704b7e0c50c6734c115c272=addy8d9405775704b7e0c50c6734c115c272+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_text8d9405775704b7e0c50c6734c115c272='c&#111;nt&#97;ct';document.getElementById('cloak8d9405775704b7e0c50c6734c115c272').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addy8d9405775704b7e0c50c6734c115c272+'\\' target=\"_blank\">'+addy_text8d9405775704b7e0c50c6734c115c272+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/irion.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Ardwell M.R. Irion</p>\r\n<div id=\"org_inner\">\r\n<div
+        id=\"org1\">\r\n<p style=\"text-transform: uppercase; font-weight: bold;\">MEMBER
+        of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p
+        id=\"orgi_right\">National Alliance</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div id=\"orgi_right\">\r\n<ul>\r\n<li><a
+        href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloaka2390ecc5221fd066179098e949c8bc4\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloaka2390ecc5221fd066179098e949c8bc4').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addya2390ecc5221fd066179098e949c8bc4='&#97;rdw&#101;ll.&#105;r&#105;&#111;n'+'&#64;';addya2390ecc5221fd066179098e949c8bc4=addya2390ecc5221fd066179098e949c8bc4+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_texta2390ecc5221fd066179098e949c8bc4='c&#111;nt&#97;ct';document.getElementById('cloaka2390ecc5221fd066179098e949c8bc4').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addya2390ecc5221fd066179098e949c8bc4+'\\' target=\"_blank\">'+addy_texta2390ecc5221fd066179098e949c8bc4+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/matser.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Silvio J. Matser</p>\r\n<div id=\"org_inner\">\r\n<div
+        id=\"org1\">\r\n<p style=\"text-transform: uppercase; font-weight: bold;\">Member
+        of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p
+        id=\"orgi_right\">United St. Maarten Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div id=\"orgi_right\">\r\n<ul>\r\n<li><a
+        href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloakcaf502ac67c8df843fc3f0af3bbb619d\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloakcaf502ac67c8df843fc3f0af3bbb619d').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addycaf502ac67c8df843fc3f0af3bbb619d='s&#105;lv&#105;&#111;.m&#97;ts&#101;r'+'&#64;';addycaf502ac67c8df843fc3f0af3bbb619d=addycaf502ac67c8df843fc3f0af3bbb619d+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_textcaf502ac67c8df843fc3f0af3bbb619d='c&#111;nt&#97;ct';document.getElementById('cloakcaf502ac67c8df843fc3f0af3bbb619d').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addycaf502ac67c8df843fc3f0af3bbb619d+'\\' target=\"_blank\">'+addy_textcaf502ac67c8df843fc3f0af3bbb619d+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/fmeyers.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Franklin A. Meyers</p>\r\n<div id=\"org_inner\">\r\n<div
+        id=\"org1\">\r\n<p style=\"text-transform: uppercase; font-weight: bold;\">Member
+        of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p
+        id=\"orgi_right\">United Peoples Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div id=\"orgi_right\">\r\n<ul>\r\n<li><a
+        href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloak4bafb32567e008aa07724ff8ba14173c\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloak4bafb32567e008aa07724ff8ba14173c').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy4bafb32567e008aa07724ff8ba14173c='fr&#97;nkl&#105;n.m&#101;y&#101;rs'+'&#64;';addy4bafb32567e008aa07724ff8ba14173c=addy4bafb32567e008aa07724ff8ba14173c+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_text4bafb32567e008aa07724ff8ba14173c='c&#111;nt&#97;ct';document.getElementById('cloak4bafb32567e008aa07724ff8ba14173c').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addy4bafb32567e008aa07724ff8ba14173c+'\\' target=\"_blank\">'+addy_text4bafb32567e008aa07724ff8ba14173c+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/browbill.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Chanel E. Brownbill</p>\r\n<div id=\"org_inner\">\r\n<div
+        id=\"org1\">\r\n<p style=\"text-transform: uppercase; font-weight: bold;\">Member
+        of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p
+        id=\"orgi_right\">United St. Maarten Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div id=\"orgi_right\">\r\n<ul>\r\n<li><a
+        href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloak30731c55e80207be023b096f23aea6bb\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloak30731c55e80207be023b096f23aea6bb').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy30731c55e80207be023b096f23aea6bb='ch&#97;n&#101;l.br&#111;wnb&#105;ll'+'&#64;';addy30731c55e80207be023b096f23aea6bb=addy30731c55e80207be023b096f23aea6bb+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_text30731c55e80207be023b096f23aea6bb='c&#111;nt&#97;ct';document.getElementById('cloak30731c55e80207be023b096f23aea6bb').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addy30731c55e80207be023b096f23aea6bb+'\\' target=\"_blank\">'+addy_text30731c55e80207be023b096f23aea6bb+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/f-richardson.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Frans G. Richardson</p>\r\n<div id=\"org_inner\">\r\n<div
+        id=\"org1\">\r\n<p style=\"text-transform: uppercase; font-weight: bold;\">Member
+        of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p
+        id=\"orgi_right\">United St. Maarten Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div id=\"orgi_right\">\r\n<ul>\r\n<li><a
+        href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloakf81f18eb63855901c8f022133d45d664\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloakf81f18eb63855901c8f022133d45d664').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addyf81f18eb63855901c8f022133d45d664='fr&#97;ns.r&#105;ch&#97;rds&#111;n'+'&#64;';addyf81f18eb63855901c8f022133d45d664=addyf81f18eb63855901c8f022133d45d664+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_textf81f18eb63855901c8f022133d45d664='c&#111;nt&#97;ct';document.getElementById('cloakf81f18eb63855901c8f022133d45d664').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addyf81f18eb63855901c8f022133d45d664+'\\' target=\"_blank\">'+addy_textf81f18eb63855901c8f022133d45d664+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/g-pantophlet.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">George C. Pantophlet</p>\r\n<div
+        id=\"org_inner\">\r\n<div id=\"org1\">\r\n<p style=\"text-transform: uppercase;
+        font-weight: bold;\">Member of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p id=\"orgi_right\">National
+        Alliance</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div
+        id=\"orgi_right\">\r\n<ul>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloak0b8c3ba32e5d18c09e293260bc31dbbb\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloak0b8c3ba32e5d18c09e293260bc31dbbb').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy0b8c3ba32e5d18c09e293260bc31dbbb='g&#101;&#111;rg&#101;.p&#97;nt&#111;phl&#101;t'+'&#64;';addy0b8c3ba32e5d18c09e293260bc31dbbb=addy0b8c3ba32e5d18c09e293260bc31dbbb+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_text0b8c3ba32e5d18c09e293260bc31dbbb='c&#111;nt&#97;ct';document.getElementById('cloak0b8c3ba32e5d18c09e293260bc31dbbb').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addy0b8c3ba32e5d18c09e293260bc31dbbb+'\\' target=\"_blank\">'+addy_text0b8c3ba32e5d18c09e293260bc31dbbb+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p>&nbsp;</p>\r\n</div>\r\n<!--
+        org_left-->\r\n<div id=\"org_right\">\r\n<p id=\"org_title\">Romeo F. Pantophlet</p>\r\n<div
+        id=\"org_inner\">\r\n<div id=\"org1\">\r\n<p style=\"text-transform: uppercase;
+        font-weight: bold;\">mEMBER of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p id=\"orgi_right\">National
+        Alliance</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div
+        id=\"orgi_right\">\r\n<ul>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloaka9a09111ab80e9ff2477101b53e96fea\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloaka9a09111ab80e9ff2477101b53e96fea').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addya9a09111ab80e9ff2477101b53e96fea='r&#111;m&#101;&#111;.p&#97;nt&#111;phl&#101;t'+'&#64;';addya9a09111ab80e9ff2477101b53e96fea=addya9a09111ab80e9ff2477101b53e96fea+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_texta9a09111ab80e9ff2477101b53e96fea='c&#111;nt&#97;ct';document.getElementById('cloaka9a09111ab80e9ff2477101b53e96fea').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addya9a09111ab80e9ff2477101b53e96fea+'\\' target=\"_blank\">'+addy_texta9a09111ab80e9ff2477101b53e96fea+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/samuel.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">drs. Rodolphe E. Samuel</p>\r\n<div
+        id=\"org_inner\">\r\n<div id=\"org1\">\r\n<p style=\"text-transform: uppercase;
+        font-weight: bold;\">Member of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p id=\"orgi_right\">National
+        Alliance</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div
+        id=\"orgi_right\">\r\n<ul>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloak1e6627342f2b4234a60c56fa963a4d6c\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloak1e6627342f2b4234a60c56fa963a4d6c').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy1e6627342f2b4234a60c56fa963a4d6c='r&#111;d&#111;lph&#101;.s&#97;m&#117;&#101;l'+'&#64;';addy1e6627342f2b4234a60c56fa963a4d6c=addy1e6627342f2b4234a60c56fa963a4d6c+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_text1e6627342f2b4234a60c56fa963a4d6c='c&#111;nt&#97;ct';document.getElementById('cloak1e6627342f2b4234a60c56fa963a4d6c').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addy1e6627342f2b4234a60c56fa963a4d6c+'\\' target=\"_blank\">'+addy_text1e6627342f2b4234a60c56fa963a4d6c+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/hyacinth.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Hyacinth L. Richardson</p>\r\n<div
+        id=\"org_inner\">\r\n<div id=\"org1\">\r\n<p style=\"text-transform: uppercase;
+        font-weight: bold;\">mEMBER of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p id=\"orgi_right\">National
+        Alliance</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div
+        id=\"orgi_right\">\r\n<ul>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloakba8c7363e17f2d236ee75c19ce1a90d8\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloakba8c7363e17f2d236ee75c19ce1a90d8').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addyba8c7363e17f2d236ee75c19ce1a90d8='hy&#97;c&#105;nth.r&#105;ch&#97;rds&#111;n'+'&#64;';addyba8c7363e17f2d236ee75c19ce1a90d8=addyba8c7363e17f2d236ee75c19ce1a90d8+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_textba8c7363e17f2d236ee75c19ce1a90d8='c&#111;nt&#97;ct';document.getElementById('cloakba8c7363e17f2d236ee75c19ce1a90d8').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addyba8c7363e17f2d236ee75c19ce1a90d8+'\\' target=\"_blank\">'+addy_textba8c7363e17f2d236ee75c19ce1a90d8+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p>\r\n<div id=\"o1\">\r\n<div id=\"org_left\">\r\n<p><img
+        src=\"/images/s-williams.jpg\" alt=\"\"/></p>\r\n</div>\r\n<!-- org_left-->\r\n<div
+        id=\"org_right\">\r\n<p id=\"org_title\">Sarah A. Wescot-Williams</p>\r\n<div
+        id=\"org_inner\">\r\n<div id=\"org1\">\r\n<p style=\"text-transform: uppercase;
+        font-weight: bold;\">Member of Parliament</p>\r\n</div>\r\n<!-- org1-->\r\n<div
+        id=\"org1\">\r\n<p id=\"orgi_left\">party</p>\r\n<p id=\"orgi_right\">Democratic
+        Party</p>\r\n</div>\r\n<!-- org1-->\r\n<div id=\"org1\">\r\n<p id=\"orgi_left\">connect</p>\r\n<div
+        id=\"orgi_right\">\r\n<ul>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_fb.png.pagespeed.ic.AeAJoY9iWh.png\"
+        alt=\"\"/></a></li>\r\n<li><a href=\"#\" target=\"_blank\"><img src=\"/images/xtop_image_tweet.png.pagespeed.ic.P52ja7Klpy.png\"
+        alt=\"\"/></a></li>\r\n<li id=\"contact\"><span id=\"cloakeecf1b1b02e5677200ba16aed4ddcb49\">This
+        email address is being protected from spambots. You need JavaScript enabled
+        to view it.</span><script type='text/javascript'>document.getElementById('cloakeecf1b1b02e5677200ba16aed4ddcb49').innerHTML='';var
+        prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addyeecf1b1b02e5677200ba16aed4ddcb49='s&#97;r&#97;h.w&#101;sc&#111;t-w&#105;ll&#105;&#97;ms'+'&#64;';addyeecf1b1b02e5677200ba16aed4ddcb49=addyeecf1b1b02e5677200ba16aed4ddcb49+'sxmp&#97;rl&#105;&#97;m&#101;nt'+'&#46;'+'&#111;rg';var
+        addy_texteecf1b1b02e5677200ba16aed4ddcb49='c&#111;nt&#97;ct';document.getElementById('cloakeecf1b1b02e5677200ba16aed4ddcb49').innerHTML+='<a
+        '+path+'\\''+prefix+':'+addyeecf1b1b02e5677200ba16aed4ddcb49+'\\' target=\"_blank\">'+addy_texteecf1b1b02e5677200ba16aed4ddcb49+'<\\/a>';</script></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<!--
+        org1-->\r\n<div><!--org_inner --></div>\r\n<!-- org_right--></div>\r\n<!--o1
+        --></div>\r\n</div>\r\n<p>&nbsp;</p> <div class=\"attachmentsContainer\">\n\n<div
+        class=\"attachmentsList\" id=\"attachmentsList_com_content_default_120\"></div>\n\n</div>\t</section>\n\n
+        \ <!-- footer -->\n    <!-- //footer -->\n\n\t\n\t\n\t\n</article>\n<!-- //Article
+        -->\n\n\n</div>\n    </div>\n    <!-- //MAIN CONTENT -->\n\n        <!-- SIDEBAR
+        1 -->\n    <div class=\"t3-sidebar t3-sidebar-1 span3\" data-default=\"span3\"
+        data-xtablet=\"span4\" data-tablet=\"span12 spanfirst\">\n      \t<div class=\"t3-module
+        module\" id=\"Mod236\">\n\t\t<div class=\"module-inner\">\n\t\t\t\t\t\t\t\t\t\t<h3
+        class=\"module-title\"><span>Factions</span></h3>\n\t\t\t\t\t\t<div class=\"module-ct\">\n\t\t\t\t\n\n<div
+        class=\"custom\">\n\t<p>The following factions are represented in Parliament:</p>\r\n<p>United
+        Peoples Party</p>\r\n<p>National Alliance</p>\r\n<p>Democratic Party</p>\r\n<p>United
+        St. Maarten Party</p></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\t<div
+        class=\"t3-module module\" id=\"Mod237\">\n\t\t<div class=\"module-inner\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"module-ct\">\n\t\t\t\t<div class=\"search\">\n\t<form action=\"/organization/members-of-parliament.html\"
+        method=\"post\" class=\"form-inline form-search\">\n\t\t<label for=\"mod-search-searchword\"
+        class=\"element-invisible\">Search</label> <input name=\"searchword\" id=\"mod-search-searchword\"
+        maxlength=\"200\" class=\"input\" type=\"text\" size=\"20\" placeholder=\"Search
+        ...\"/>\t\t<input type=\"hidden\" name=\"task\" value=\"search\"/>\n\t\t<input
+        type=\"hidden\" name=\"option\" value=\"com_search\"/>\n\t\t<input type=\"hidden\"
+        name=\"Itemid\" value=\"637\"/>\n\t</form>\n</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\n
+        \   </div>\n    <!-- //SIDEBAR 1 -->\n        \n    \n  </div>\n</section>
+        \n\n      \n\n\n      <div class=\"ot_portfolio\">\n\t<div class=\"container\">\n\n\t\t\t\n\t</div>\n</div>\n\n\n\n
+        \     <div class=\"ot_twitter\">\n\t<div class=\"container\">\n\n\t\t\t\n\t</div>\n</div>\n\n\n\n
+        \     <div class=\"ot_blog\">\n\t<div class=\"container\">\n\n\t\t\t\n\t</div>\n</div>\n\n\n\n
+        \     <div class=\"ot_clients\">\n\t<div class=\"container\">\n\n\t\t\t\n\t</div>\n</div>\n\n\n\n
+        \     \n<!-- NAV HELPER -->\n<nav class=\"wrap t3-navhelper\">\n  <div class=\"container\">\n
+        \   \n<ul class=\"breadcrumb \">\n\t<li class=\"active\"><span class=\"divider
+        hasTooltip\"><i class=\"icon-map-marker\" data-toggle=\"tooltip\" title=\"You
+        are here: \"></i></span></li><li><a href=\"/\" class=\"pathway\">Home</a>
+        <span class=\"divider\"> <i class=\"icon-angle-right\"></i> </span> </li><li><a
+        href=\"/organization.html\" class=\"pathway\">Organization</a> <span class=\"divider\">
+        <i class=\"icon-angle-right\"></i> </span> </li><li><span>Members of Parliament</span></li></ul>\n\n
+        \ </div>\n</nav>\n<!-- //NAV HELPER -->\n\n      \n<!-- FOOTER -->\n<footer
+        id=\"t3-footer\" class=\"wrap t3-footer\">\n\n  <!-- FOOT NAVIGATION -->\n
+        \ <div class=\"container\">\n      </div>\n  <!-- //FOOT NAVIGATION -->\n\n
+        \ <section class=\"t3-copyright\">\n    <div class=\"container\">\n      <div
+        class=\"row\">\n        <div class=\"span12 copyright\">\n          <small>Copyright
+        &#169; 2017 Sint Maarten Parliament. All Rights Reserved. </small>\n\n        </div>\n
+        \             </div>\n    </div>\n  </section>\n\n</footer>\n<!-- //FOOTER
+        -->\n\n    </div>\n\n    </section>\n\n    \n  </body>\n\n</html>"
+    http_version: 
+  recorded_at: Thu, 16 Feb 2017 14:57:55 GMT
+recorded_with: VCR 3.0.3
