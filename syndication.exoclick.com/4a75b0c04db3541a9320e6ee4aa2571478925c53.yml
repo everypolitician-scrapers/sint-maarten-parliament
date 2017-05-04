@@ -1,0 +1,42 @@
+---
+request:
+  method: get
+  uri: http://syndication.exoclick.com/splash.php?cat=&idzone=2487549&p=&sub=&type=8
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 302
+    message: Found
+  headers:
+    Server:
+    - nginx
+    Date:
+    - Thu, 04 May 2017 21:57:11 GMT
+    Content-Type:
+    - text/html; charset=UTF-8
+    Transfer-Encoding:
+    - chunked
+    Connection:
+    - keep-alive
+    Set-Cookie:
+    - __uvt=a%3A1%3A%7Bi%3A0%3Bs%3A33%3A%22590ba3b6cdd117.006416242599429350%22%3B%7D;
+      expires=Mon, 19-Apr-2077 21:57:10 GMT; Max-Age=1892160000; domain=exoclick.com
+    - impressions=x%9Cm%C9A%0A%80+%10%85%E1%BB%CC%094%0Du%E60%21b%25%94X%DA%22%C2%BBg%AE%DB%3C%F8%DFg%91%E3%13%90%2B%A6%B5%E4dQ%E2%93%DB%C0%1AJ%06jB%3DK%D8%7DOi%84%11%23%13%DF%AF%116%9B%CB%AFq%85%E0lJ%21.%D3%7C%FA%E3%F2%D1%DD%D0%40+%A8%81%01%D5%FA%02%7F%D4%23%D1;
+      expires=Fri, 05-May-2017 09:57:11 GMT; Max-Age=43200; path=/; domain=.exoclick.com
+    - tag=1708841%7Cgogirlgo.in%7CUSA%7C%7C15442371%7C%7C%7C2487549%7C50.116.3.88%7C506%7C31%7C0%7C0%7C%7C%7C0%7C0%7C%7C%7C1%7C0%7C%7C%7C107%7C%7C0%7C2%7C%7C0%7C0%7C0%7C1%7C0%7C0;
+      expires=Fri, 05-May-2017 21:57:11 GMT; Max-Age=86400; path=/; domain=.exoclick.com
+    Location:
+    - http://www.adnetworkperformance.com/a/display.php?r=1374565&sub1=2487549&cb=[cachebuster]
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Thu, 04 May 2017 21:57:11 GMT
