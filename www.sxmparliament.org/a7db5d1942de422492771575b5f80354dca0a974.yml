@@ -14,39 +14,20 @@ request:
     - Ruby
 response:
   status:
-    code: 200
-    message: OK
+    code: 302
+    message: Found
   headers:
     Date:
-    - Wed, 03 May 2017 10:55:34 GMT
+    - Thu, 04 May 2017 21:57:09 GMT
     Server:
-    - Apache/2.4.23
-    X-Powered-By:
-    - PHP/5.6.29
-    X-Logged-In:
-    - 'False'
-    X-Content-Powered-By:
-    - K2 v2.7.1 (by JoomlaWorks)
-    P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
-    Expires:
-    - Wed, 17 Aug 2005 00:00:00 GMT
-    Cache-Control:
-    - max-age=0, no-cache
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-    Pragma:
-    - no-cache
-    Set-Cookie:
-    - 6b46cc80a1166fc32f6c9e033728f33d=09b254908eaa6d185a76a2b75c954131; path=/; HttpOnly
-    X-Mod-Pagespeed:
-    - 1.11.33.4-0
-    Vary:
-    - Accept-Encoding
+    - Apache/2.4.25
+    Location:
+    - http://portal-f.pw/XcTyTp
     Content-Length:
-    - '6640'
+    - '209'
     Content-Type:
-    - text/html; charset=utf-8
+    - text/html; charset=iso-8859-1
   body:
-    encoding: ASCII-8BIT
+    encoding: UTF-8
   http_version: 
-recorded_at: Wed, 03 May 2017 10:55:36 GMT
+recorded_at: Thu, 04 May 2017 21:57:09 GMT
