@@ -1,0 +1,40 @@
+---
+request:
+  method: get
+  uri: http://www.adnetworkperformance.com/a/display.php?cb=%5Bcachebuster%5D&r=1374565&sub1=2487549
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Server:
+    - openresty
+    Date:
+    - Thu, 04 May 2017 21:57:11 GMT
+    Content-Type:
+    - text/html; charset=utf-8
+    Transfer-Encoding:
+    - chunked
+    Connection:
+    - keep-alive
+    Link:
+    - "<//www.adnetworkperformance.com>; rel=dns-prefetch,<//www.adnetworkperformance.com>;
+      rel=preconnect"
+    Vary:
+    - Accept-Encoding
+    Referrer-Policy:
+    - no-referrer
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 04 May 2017 21:57:11 GMT

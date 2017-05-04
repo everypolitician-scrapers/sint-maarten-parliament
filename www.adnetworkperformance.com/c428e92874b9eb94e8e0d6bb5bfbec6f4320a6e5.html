@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="referrer" content="none">
+    <meta name="referrer" content="no-referrer">
+        <script language="javascript">
+        if (window.opener) {
+            window.opener.focus();
+        }
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+    
+function inIframe() {
+    try {
+        return (window.self !== window.top) ? 1 : 0;
+    }
+    catch (e) {
+        return 1;
+    }
+}
+function ReopenUrlBuilder(baseUrl) {
+
+    this.baseUrl = baseUrl;
+
+    /**
+     * Get value of content attribute of meta tag with name attribute = name
+     * Fallback to top if possible
+     *
+     * @return string
+     */
+    this._getMetaContent = function (name) {
+        try {
+            var meta = window.top.document.getElementsByTagName('meta');
+            for (var i = 0; i < meta.length; i++) {
+                if (meta[i].hasAttribute('name') && meta[i].getAttribute('name').toLowerCase() === name) {
+                    var info = meta[i].getAttribute('content');
+                    var indexToCut = Math.max(info.indexOf(' ', 256), info.indexOf(',', 256));
+                    if (indexToCut > 384 || indexToCut < 20) {
+                        indexToCut = 256;
+                    }
+                    return info.substring(0, indexToCut);
+                }
+            }
+        } catch (e) {
+        }
+
+        return '';
+    };
+
+    this._getWidth = function () {
+        return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    };
+
+    this._getHeight = function () {
+        return window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    };
+
+    this._getTitle = function () {
+        var title = document.title;
+
+        if (inIframe()) {
+            try {
+                title = window.top.document.title;
+            }
+            catch (e) {
+                title = '';
+            }
+        }
+
+        return title;
+    };
+
+    this.build = function () {
+        return this.baseUrl
+            + '&cbrandom=' + Math.random()
+            + '&cbtitle=' + encodeURIComponent(this._getTitle())
+            + '&cbiframe=' + inIframe()
+            + '&cbWidth=' + this._getWidth()
+            + '&cbHeight=' + this._getHeight()
+            + '&cbdescription=' + encodeURIComponent(this._getMetaContent('description'))
+            + '&cbkeywords=' + encodeURIComponent(this._getMetaContent('keywords'))
+    };
+}
+
+    var builder = new ReopenUrlBuilder("http:\/\/www.adnetworkperformance.com\/a\/display.php?r=1374565&sub1=2487549&cb=[cachebuster]&treqn=2142536058&runauction=1&crr=db63bf11df7218b582ce,EmRyUibf1ebf33a2b7e51fc9ea5");
+    var url = builder.build();
+
+    if (true && inIframe()) {
+        window.top.location.replace(url);
+                    setTimeout(function () {
+                window.location.replace("http:\/\/www.adnetworkperformance.com\/ad\/display.php?stamat=m%7C%2CUIiOSYjJqB1dwP0dEdHP3xP.281%2CUgXp-MyTKHQIY7YYl5Ne8GCi3v-lY9OGStzSfJNFuBGy_yBCPt0n8SMHi7zjsPQb");
+            }, 2500);
+            }
+    else {
+        window.location.replace(url);
+    }
+</script>
+</body>
+</html>
