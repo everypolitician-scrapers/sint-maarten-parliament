@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 04 May 2017 21:57:11 GMT
+    - Fri, 05 May 2017 08:29:16 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Transfer-Encoding:
@@ -28,15 +28,15 @@ response:
     Connection:
     - keep-alive
     Set-Cookie:
-    - __uvt=a%3A1%3A%7Bi%3A0%3Bs%3A33%3A%22590ba3b6cdd117.006416242599429350%22%3B%7D;
-      expires=Mon, 19-Apr-2077 21:57:10 GMT; Max-Age=1892160000; domain=exoclick.com
-    - impressions=x%9Cm%C9A%0A%80+%10%85%E1%BB%CC%094%0Du%E60%21b%25%94X%DA%22%C2%BBg%AE%DB%3C%F8%DFg%91%E3%13%90%2B%A6%B5%E4dQ%E2%93%DB%C0%1AJ%06jB%3DK%D8%7DOi%84%11%23%13%DF%AF%116%9B%CB%AFq%85%E0lJ%21.%D3%7C%FA%E3%F2%D1%DD%D0%40+%A8%81%01%D5%FA%02%7F%D4%23%D1;
-      expires=Fri, 05-May-2017 09:57:11 GMT; Max-Age=43200; path=/; domain=.exoclick.com
+    - __uvt=a%3A1%3A%7Bi%3A0%3Bs%3A32%3A%22590c37dbbf2610.34262439799039164%22%3B%7D;
+      expires=Tue, 20-Apr-2077 08:29:15 GMT; Max-Age=1892160000; domain=exoclick.com
+    - impressions=x%9Cm%C9K%0A%80+%14%85%E1%BD%DC%15%F8%2A%F5%BA%98%10%B1%12J%2Cm%10%E2%DE%13%C7M%0E%FC%E7%B3H%B1%06%A4%92%28%25%A8%B1%28%B0%E6%3E%B0%87%92%C1t1%23K8%FDH%A1%B9%96LOs%FF%15%C2as%F95%2A%11%9CM%29%C4mYo%7F%3D%3E%BA%17%3Ap%04%C9%08%98%D6%3E%87%14%23%F3;
+      expires=Fri, 05-May-2017 20:29:16 GMT; Max-Age=43200; path=/; domain=.exoclick.com
     - tag=1708841%7Cgogirlgo.in%7CUSA%7C%7C15442371%7C%7C%7C2487549%7C50.116.3.88%7C506%7C31%7C0%7C0%7C%7C%7C0%7C0%7C%7C%7C1%7C0%7C%7C%7C107%7C%7C0%7C2%7C%7C0%7C0%7C0%7C1%7C0%7C0;
-      expires=Fri, 05-May-2017 21:57:11 GMT; Max-Age=86400; path=/; domain=.exoclick.com
+      expires=Sat, 06-May-2017 08:29:16 GMT; Max-Age=86400; path=/; domain=.exoclick.com
     Location:
     - http://www.adnetworkperformance.com/a/display.php?r=1374565&sub1=2487549&cb=[cachebuster]
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 04 May 2017 21:57:11 GMT
+recorded_at: Fri, 05 May 2017 08:29:16 GMT
