@@ -18,7 +18,7 @@ response:
     message: Found
   headers:
     Date:
-    - Fri, 05 May 2017 08:29:14 GMT
+    - Sat, 06 May 2017 19:10:27 GMT
     Server:
     - Apache/2.4.25
     Location:
@@ -30,4 +30,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 05 May 2017 08:29:14 GMT
+recorded_at: Sat, 06 May 2017 19:10:27 GMT
