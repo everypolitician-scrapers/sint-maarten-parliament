@@ -14,13 +14,13 @@ request:
     - Ruby
 response:
   status:
-    code: 302
-    message: Found
+    code: 200
+    message: OK
   headers:
     Server:
     - nginx
     Date:
-    - Sun, 07 May 2017 21:46:32 GMT
+    - Mon, 08 May 2017 01:24:19 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Transfer-Encoding:
@@ -28,13 +28,11 @@ response:
     Connection:
     - keep-alive
     Set-Cookie:
-    - __uvt=a%3A1%3A%7Bi%3A0%3Bs%3A33%3A%22590f95b89b11d3.238032542292617559%22%3B%7D;
-      expires=Thu, 22-Apr-2077 21:46:32 GMT; Max-Age=1892160000; domain=exoclick.com
-    - tag=1660685%7Crecaptcha-in.pw%7CUSA%7C%7C15201663%7C%7C%7C2486067%7C50.116.3.88%7C508%7C50%7C0%7C0%7C%7C%7C0%7C0%7C%7C%7C1%7C0%7C%7C%7C107%7C%7C0%7C2%7C%7C0%7C0%7C0%7C1%7C0%7C0;
-      expires=Mon, 08-May-2017 21:46:32 GMT; Max-Age=86400; path=/; domain=.exoclick.com
-    Location:
-    - http://ad.dumedia.ru/click?id=stfwwqpnea&ts=1494193592&hash=c28fd49b&jsuid=s8ff92p9migowgs8
+    - __uvt=a%3A1%3A%7Bi%3A0%3Bs%3A33%3A%22590fc8c35d5888.467172212363419606%22%3B%7D;
+      expires=Fri, 23-Apr-2077 01:24:19 GMT; Max-Age=1892160000; domain=exoclick.com
+    - tag=1748847%7Crecaptcha-in.pw%7CUSA%7C%7C15650519%7C%7C%7C2486067%7C50.116.3.88%7C508%7C31%7C0%7C0%7C%7C%7C0%7C0%7C%7C%7C1%7C0%7C%7C%7C107%7C%7C0%7C2%7C%7C0%7C13507%7C18141%7C1%7C0%7C0;
+      expires=Tue, 09-May-2017 01:24:19 GMT; Max-Age=86400; path=/; domain=.exoclick.com
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 07 May 2017 21:46:32 GMT
+recorded_at: Mon, 08 May 2017 01:24:19 GMT

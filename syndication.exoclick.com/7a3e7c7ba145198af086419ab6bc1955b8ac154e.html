@@ -1,0 +1,32 @@
+
+<script>
+    var isInIframe = false;
+    try {
+        isInIframe = window.self !== window.top;
+    } catch (e) {
+        isInIframe = true;
+    }
+
+    getWidth = function() { return window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth; };
+    getHeight = function() { return window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight; };
+
+    isInvalidSize = ! (getWidth() >= 100 && getHeight() >= 100);
+
+    redirectUrl = "/splash.php?cat=&idzone=2486067&type=8&p=&sub=";
+
+    // Since we can't log two separate reasons, iframe will be the "stronger" one
+    var testResult = 1;
+    if ( isInIframe ) {
+        testResult = 2;
+    } else if (isInvalidSize) {
+        testResult = 3;
+    }
+
+    redirectUrl += '&tested=' + testResult;
+
+    if ( testResult == 1 ) {
+        redirectUrl += '&check=7733eaa031f98f804b219beeb0006335';
+    }
+
+    location.href = redirectUrl;
+</script>
