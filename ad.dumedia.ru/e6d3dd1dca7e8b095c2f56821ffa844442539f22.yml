@@ -1,0 +1,48 @@
+---
+request:
+  method: get
+  uri: http://ad.dumedia.ru/click?hash=252d11aa&id=st624ion50&jsuid=s8ff92p9migowgs8&ts=1494301756
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Server:
+    - nginx
+    Date:
+    - Tue, 09 May 2017 03:49:17 GMT
+    Content-Type:
+    - text/html; charset=UTF-8
+    Transfer-Encoding:
+    - chunked
+    Connection:
+    - keep-alive
+    X-Powered-By:
+    - PHP/5.6.20
+    Cache-Control:
+    - no-cache
+    P3p:
+    - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+    X-Queue-Time:
+    - '0.41794776916504'
+    X-Time:
+    - '44.66700553894'
+    X-Total-Time:
+    - '45.084953308105'
+    Set-Cookie:
+    - uid=s8ff92p9migowgs8; expires=Wed, 09-May-2018 03:49:17 GMT; Max-Age=31536000;
+      path=/; domain=.dumedia.ru; httponly
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 09 May 2017 03:49:17 GMT
