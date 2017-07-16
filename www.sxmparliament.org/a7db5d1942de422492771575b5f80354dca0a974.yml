@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Sat, 15 Jul 2017 16:29:43 GMT
+    - Sun, 16 Jul 2017 04:03:47 GMT
     Server:
     - Apache
     X-Powered-By:
@@ -36,9 +36,9 @@ response:
     Pragma:
     - no-cache
     Set-Cookie:
-    - 6b46cc80a1166fc32f6c9e033728f33d=b46f0fedd626368d7cd8d3cc81b70f6c; path=/; HttpOnly
+    - 6b46cc80a1166fc32f6c9e033728f33d=8e0cb8f9a1c0af12ef995549d4c58ed1; path=/; HttpOnly
     Last-Modified:
-    - Sat, 15 Jul 2017 16:29:44 GMT
+    - Sun, 16 Jul 2017 04:03:48 GMT
     Transfer-Encoding:
     - chunked
     Content-Type:
@@ -46,4 +46,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 15 Jul 2017 16:29:44 GMT
+recorded_at: Sun, 16 Jul 2017 04:03:48 GMT
