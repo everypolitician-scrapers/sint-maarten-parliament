@@ -18,11 +18,11 @@ response:
     message: OK
   headers:
     Date:
-    - Tue, 18 Jul 2017 04:34:33 GMT
+    - Wed, 19 Jul 2017 18:42:26 GMT
     Server:
     - Apache
     X-Powered-By:
-    - PHP/7.0.18
+    - PHP/7.0.21
     X-Logged-In:
     - 'False'
     X-Content-Powered-By:
@@ -36,9 +36,9 @@ response:
     Pragma:
     - no-cache
     Set-Cookie:
-    - 6b46cc80a1166fc32f6c9e033728f33d=fb500cd18ee1f6d45b97be719db4de2c; path=/; HttpOnly
+    - 6b46cc80a1166fc32f6c9e033728f33d=f69fe7a7d0ff0e3d79d9c03eff59ce12; path=/; HttpOnly
     Last-Modified:
-    - Tue, 18 Jul 2017 04:34:34 GMT
+    - Wed, 19 Jul 2017 18:42:26 GMT
     Transfer-Encoding:
     - chunked
     Content-Type:
@@ -46,4 +46,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 18 Jul 2017 04:34:34 GMT
+recorded_at: Wed, 19 Jul 2017 18:42:26 GMT
