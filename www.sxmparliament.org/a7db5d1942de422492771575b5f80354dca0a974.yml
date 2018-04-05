@@ -18,11 +18,11 @@ response:
     message: OK
   headers:
     Date:
-    - Wed, 04 Apr 2018 01:32:48 GMT
+    - Thu, 05 Apr 2018 05:33:46 GMT
     Server:
     - Apache
     X-Powered-By:
-    - PHP/7.0.22
+    - PHP/7.0.29
     X-Logged-In:
     - 'False'
     X-Content-Powered-By:
@@ -36,13 +36,13 @@ response:
     Pragma:
     - no-cache
     Set-Cookie:
-    - 6b46cc80a1166fc32f6c9e033728f33d=3280fb9e747561634ed36d5c698e27f9; path=/; HttpOnly
+    - 6b46cc80a1166fc32f6c9e033728f33d=06eea715906f3c7a6caacd615c006431; path=/; HttpOnly
     Upgrade:
     - h2,h2c
     Connection:
     - Upgrade
     Last-Modified:
-    - Wed, 04 Apr 2018 01:32:48 GMT
+    - Thu, 05 Apr 2018 05:33:46 GMT
     Content-Type:
     - text/html; charset=utf-8
     Content-Length:
@@ -50,4 +50,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 04 Apr 2018 01:32:49 GMT
+recorded_at: Thu, 05 Apr 2018 05:33:46 GMT
