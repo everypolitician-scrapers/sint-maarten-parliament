@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Wed, 27 Jun 2018 10:12:30 GMT
+    - Thu, 28 Jun 2018 01:19:04 GMT
     Server:
     - Apache
     X-Powered-By:
@@ -36,13 +36,13 @@ response:
     Pragma:
     - no-cache
     Set-Cookie:
-    - 6b46cc80a1166fc32f6c9e033728f33d=b8bb82bb37a68b0c183fb47787db82b1; path=/; HttpOnly
+    - 6b46cc80a1166fc32f6c9e033728f33d=2fe19770af2c1906083577c297acf5b9; path=/; HttpOnly
     Upgrade:
     - h2,h2c
     Connection:
     - Upgrade
     Last-Modified:
-    - Wed, 27 Jun 2018 10:12:30 GMT
+    - Thu, 28 Jun 2018 01:19:05 GMT
     Content-Type:
     - text/html; charset=utf-8
     Content-Length:
@@ -50,4 +50,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 27 Jun 2018 10:12:31 GMT
+recorded_at: Thu, 28 Jun 2018 01:19:05 GMT
