@@ -20,7 +20,8 @@ end
 
 start = 'http://www.sxmparliament.org/organization/members-of-parliament.html'
 
+data = scrape(start => MembersPage).members.map { |m| m.to_h.merge(term: 4) }
+data.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if ENV['MORPH_DEBUG']
+
 ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
-data = scrape(start => MembersPage).members.map { |m| m.to_h.merge(term: 3) }
-# puts data.map { |r| r.reject { |_k, v| v.to_s.empty? }.sort_by { |k, _v| k }.to_h }
 ScraperWiki.save_sqlite(%i(id term), data)
